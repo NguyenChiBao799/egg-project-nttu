@@ -1,0 +1,7 @@
+train: D:\egg_crack_detector\data\processed/train/images
+val: D:\egg_crack_detector\data\processed/val/images
+test: D:\egg_crack_detector\data\processed/test/images
+nc: 2
+names:
+- normal
+- crack

@@ -1,0 +1,16 @@
+# File: requirements.txt
+
+# --- Core Deep Learning & Object Detection ---
+# Cài đặt PyTorch (Sử dụng phiên bản CPU mặc định để tương thích rộng)
+torch
+ultralytics>=8.0.0
+numpy>=1.20.0
+
+# --- Image Processing & Utilities ---
+opencv-python>=4.6.0  # Cần cho cv2 (đã gây lỗi trước đó)
+Pillow>=9.0.0         # Cần cho PIL.Image (dùng trong app.py)
+scikit-learn>=1.0.0   # Cần cho các tiện ích data/metrics
+tqdm
+
+# --- Deployment (Ứng dụng Streamlit) ---
+streamlit>=1.20.0

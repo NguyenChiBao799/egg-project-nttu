@@ -1,0 +1,50 @@
+@"
+# ==== Python cache ====
+__pycache__/
+*.py[cod]
+*$py.class
+
+# ==== Virtual env ====
+venv/
+.env/
+.env
+.venv/
+ENV/
+env/
+
+# ==== Logs, temp, outputs ====
+*.log
+logs/
+tmp/
+temp/
+*.tmp
+
+# ==== Model, checkpoint, experiment artifacts ====
+trained_models/
+*.pt
+*.pth
+*.ckpt
+*.onnx
+checkpoints/
+runs/
+wandb/
+*.tensorboard
+*.tfevents.*
+
+# ==== Data (tùy chọn) ====
+data/
+datasets/
+*.csv
+*.tsv
+*.xlsx
+*.zip
+
+# ==== IDE / Editor ====
+.vscode/
+.idea/
+*.code-workspace
+
+# ==== OS files ====
+.DS_Store
+Thumbs.db
+"@ | Set-Content -Encoding UTF8 .gitignore
